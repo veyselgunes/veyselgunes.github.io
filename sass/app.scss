@@ -9,3 +9,146 @@
 @import "pages/contact.scss";
 @import "pages/yetenekler.scss";
 @import "reponsive/responsive.scss";
+@import "pages/experience.scss";
+
+$ana-renk: #2ecc71;
+$border-radius: 3px;
+$white: #fff;
+$black: #333;
+$all-padding: 10px;
+$left-paddinf: 5px;
+$right-padding: 5px;
+$proces-bar-padding: 5px;
+$proces-bar-radius: 20px;
+.section-deneyim {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.experience-title {
+  position: relative;
+}
+.experience-title h1 {
+  color: rgba(255, 255, 255, 0.05);
+  font-size: 70px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+.experience-title h2 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.experience-title p {
+  color: rgba(221, 221, 221, 0.473);
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.experience-box {
+  display: block;
+  width: 30em;
+  height: 15em;
+  margin-bottom: 25px;
+}
+.experience-box .box {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(80, 79, 79, 0.6);
+  padding: 20px;
+  border-radius: $border-radius;
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  -ms-border-radius: $border-radius;
+  -o-border-radius: $border-radius;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+.experience-box-right {
+  margin-left: -30px;
+}
+.experience-box-left {
+  margin-left: 30px;
+}
+.experience-box-all {
+  display: block;
+  width: 62em;
+  height: 15em;
+  margin-bottom: 25px;
+}
+.experience-box-all .box {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(80, 79, 79, 0.6);
+  padding: 20px;
+  border-radius: $border-radius;
+  -webkit-border-radius: $border-radius;
+  -moz-border-radius: $border-radius;
+  -ms-border-radius: $border-radius;
+  -o-border-radius: $border-radius;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+.experience-box-all .box h3 {
+  color: $ana-renk;
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.experience-box-all .box h5 {
+  color: #ddd;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.experience-box-all .box h6 {
+  color: #ddd;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.experience-box-all .box h6 i {
+  margin-right: 10px;
+  color: $ana-renk;
+}
+.experience-box-all .box p {
+  color: rgb(214, 214, 214);
+}
+.experience-box-all .box:hover {
+  background-image: linear-gradient(135deg, #272626 0%, #788b98 100%);
+}
+.experience-box .box h3 {
+  color: $ana-renk;
+  font-size: 21px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.experience-box .box h5 {
+  color: #ddd;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.experience-box .box h6 {
+  color: #ddd;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.experience-box .box h6 i {
+  margin-right: 10px;
+  color: $ana-renk;
+}
+.experience-box .box p {
+  color: rgb(214, 214, 214);
+}
+.experience-box .box:hover {
+  background-image: linear-gradient(135deg, #272626 0%, #788b98 100%);
+}
