@@ -610,11 +610,23 @@ section {
 /*Yetenekler Finish*/
 @media screen and (max-width: 540px) {
   .about-me-text h2 ~ p {
-    width: 400px; } }
+    width: 400px; }
+  .experience-box-right {
+    margin-left: 0px; }
+  .experience-box-all {
+    width: 30em; }
+  .experience-box-all .box {
+    width: 100%; } }
 
 @media screen and (max-width: 360px) {
   .about-me-text h2 ~ p {
-    width: 300px; } }
+    width: 300px; }
+  .experience-box-right {
+    margin-left: 0px; }
+  .experience-box-all {
+    width: 30em; }
+  .experience-box-all .box {
+    width: 100%; } }
 
 .section-deneyim {
   display: flex;
@@ -746,3 +758,12 @@ section {
 
 .experience-box .box:hover {
   background-image: linear-gradient(135deg, #272626 0%, #788b98 100%); }
+
+.bilgi-text {
+  background-color: #2ecc71;
+  padding: 15px 20px;
+  align-items: center;
+  text-align: center; }
+
+.bilgi-text h2 {
+  color: #e0e0e0; }

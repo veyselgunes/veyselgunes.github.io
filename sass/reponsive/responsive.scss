@@ -2,9 +2,27 @@
   .about-me-text h2 ~ p {
     width: 400px;
   }
+  .experience-box-right {
+    margin-left: 0px;
+  }
+  .experience-box-all {
+    width: 30em;
+  }
+  .experience-box-all .box {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 360px) {
   .about-me-text h2 ~ p {
     width: 300px;
+  }
+  .experience-box-right {
+    margin-left: 0px;
+  }
+  .experience-box-all {
+    width: 30em;
+  }
+  .experience-box-all .box {
+    width: 100%;
   }
 }

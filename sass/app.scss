@@ -152,3 +152,12 @@ $proces-bar-radius: 20px;
 .experience-box .box:hover {
   background-image: linear-gradient(135deg, #272626 0%, #788b98 100%);
 }
+.bilgi-text {
+  background-color: $ana-renk;
+  padding: 15px 20px;
+  align-items: center;
+  text-align: center;
+}
+.bilgi-text h2 {
+  color: rgb(224, 224, 224);
+}
