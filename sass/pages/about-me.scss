@@ -1,6 +1,7 @@
 /* About Me Start*/
 section {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +19,13 @@ section {
   color: #2ecc71;
   display: block;
   align-items: center;
-  font-size: 250px;
+  font-size: 300px;
   transition: 300ms all;
   -webkit-transition: 300ms all;
   -moz-transition: 300ms all;
   -ms-transition: 300ms all;
   -o-transition: 300ms all;
+  margin-left: 20%;
 }
 .about-me-img i:hover {
   transform: translate(50px);
@@ -50,7 +52,7 @@ section {
   text-transform: uppercase;
   position: absolute;
   left: 0;
-  top: 20%;
+  top: 25%;
 }
 .about-me-text h2 {
   margin-top: 1em;
@@ -61,6 +63,8 @@ section {
   margin-bottom: 40px;
 }
 .about-me-text h2 ~ p {
+  display: block;
+  width: 500px;
   margin-left: 10px;
   color: rgba(255, 255, 255, 0.581);
   font-size: 18px;

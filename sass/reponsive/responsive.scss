@@ -1,0 +1,10 @@
+@media screen and (max-width: 540px) {
+  .about-me-text h2 ~ p {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .about-me-text h2 ~ p {
+    width: 300px;
+  }
+}
