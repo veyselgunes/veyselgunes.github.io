@@ -1,0 +1,110 @@
+/*Yetenekler Start*/
+$ana-renk: #2ecc71;
+$border-radius: 3px;
+$white: #fff;
+$black: #333;
+$all-padding: 10px;
+$left-paddinf: 5px;
+$right-padding: 5px;
+$proces-bar-padding: 5px;
+$proces-bar-radius: 20px;
+.yetenekler-text {
+  position: relative;
+}
+.yetenekler-text h1 {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.06);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+
+  position: absolute;
+  left: -0.8%;
+  top: 30%;
+}
+.yetenekler-text h2 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.proces {
+  width: 20em;
+  height: 30px;
+}
+$c: 80;
+$html: 95%;
+$php: 80%;
+$css: 80%;
+$Mysql: 85%;
+$js: 60%;
+$asp: 80%;
+$ph: 85;
+$wr: 70%;
+$c2: 80%;
+$pyt: 60%;
+$vd: 50%;
+$dizi: $c, $html, $php, $css, $Mysql, $js, $asp, $ph, $wr, $c2, $pyt, $vd;
+
+@for $i from 1 through length($dizi) {
+  .item-#{$i} {
+    display: block;
+    height: 30px;
+    width: nth($dizi, $i);
+    background-color: $ana-renk;
+    border-radius: $proces-bar-radius;
+    -webkit-border-radius: $proces-bar-radius;
+    -moz-border-radius: $proces-bar-radius;
+    -ms-border-radius: $proces-bar-radius;
+    -o-border-radius: $proces-bar-radius;
+    padding: $proces-bar-padding;
+    margin-bottom: 15px;
+    animation: baranimate 100ms;
+    -webkit-animation: baranimate 2000ms 1;
+  }
+}
+.item-1-title span {
+  display: inline-block;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: $white;
+  margin-top: -60px;
+  padding-left: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.item-1-title span:last-child {
+  display: inline-block;
+  line-height: 30px;
+  color: $white;
+  float: right;
+  margin-top: -5px;
+  padding-right: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+@keyframes baranimate {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 80%;
+  }
+}
+.yetenek {
+  //background-color: rgba(0, 0, 0, 0.377);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.proces-box .proces-text {
+  color: $white;
+  font-weight: 500;
+  padding-left: $left-paddinf;
+}
+/*Yetenekler Finish*/

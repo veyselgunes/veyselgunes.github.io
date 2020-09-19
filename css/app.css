@@ -14,9 +14,6 @@ li,
 ol {
   list-style-type: none; }
 
-html {
-  scroll-behavior: smooth; }
-
 .header {
   background: linear-gradient(to right bottom, rgba(83, 83, 83, 0.425), rgba(39, 39, 39, 0.6)), url("../images/images.jpeg") no-repeat bottom center;
   height: 100vh; }
@@ -288,14 +285,25 @@ section {
   width: 25em;
   height: 100vh;
   justify-content: center;
-  flex-direction: column; }
+  flex-direction: column;
+  position: relative; }
+
+.about-me-text h1 {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.07);
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: 20%; }
 
 .about-me-text h2 {
   margin-top: 1em;
   font-size: 50px;
-  color: rgba(255, 255, 255, 0.781);
+  color: rgba(255, 255, 255, 0.981);
   text-transform: uppercase;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  margin-bottom: 40px; }
 
 .about-me-text h2 ~ p {
   margin-left: 10px;
@@ -347,3 +355,247 @@ section {
   color: white; }
 
 /*About Me End*/
+/*Yetenekler Start*/
+.yetenekler-text {
+  position: relative; }
+
+.yetenekler-text h1 {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.06);
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  position: absolute;
+  left: -0.8%;
+  top: 30%; }
+
+.yetenekler-text h2 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.proces {
+  width: 20em;
+  height: 30px; }
+
+.item-1 {
+  display: block;
+  height: 30px;
+  width: 80;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-2 {
+  display: block;
+  height: 30px;
+  width: 95%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-3 {
+  display: block;
+  height: 30px;
+  width: 80%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-4 {
+  display: block;
+  height: 30px;
+  width: 80%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-5 {
+  display: block;
+  height: 30px;
+  width: 85%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-6 {
+  display: block;
+  height: 30px;
+  width: 60%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-7 {
+  display: block;
+  height: 30px;
+  width: 80%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-8 {
+  display: block;
+  height: 30px;
+  width: 85;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-9 {
+  display: block;
+  height: 30px;
+  width: 70%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-10 {
+  display: block;
+  height: 30px;
+  width: 80%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-11 {
+  display: block;
+  height: 30px;
+  width: 60%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-12 {
+  display: block;
+  height: 30px;
+  width: 50%;
+  background-color: #2ecc71;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 15px;
+  animation: baranimate 100ms;
+  -webkit-animation: baranimate 2000ms 1; }
+
+.item-1-title span {
+  display: inline-block;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: -60px;
+  padding-left: 10px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.item-1-title span:last-child {
+  display: inline-block;
+  line-height: 30px;
+  color: #fff;
+  float: right;
+  margin-top: -5px;
+  padding-right: 10px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+@keyframes baranimate {
+  0% {
+    width: 0; }
+  100% {
+    width: 80%; } }
+
+.yetenek {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black; }
+
+.proces-box .proces-text {
+  color: #fff;
+  font-weight: 500;
+  padding-left: 5px; }
+
+/*Yetenekler Finish*/
