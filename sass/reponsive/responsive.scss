@@ -1,4 +1,4 @@
-@media screen and (max-width: 540px) {
+@media only screen and (min-width: 540px) and (max-width: 770px) {
   .about-me-text h2 ~ p {
     width: 400px;
   }
@@ -11,8 +11,20 @@
   .experience-box-all .box {
     width: 100%;
   }
+  .images-item-2 {
+    width: 30em;
+    height: 22em;
+  }
+  .images-item-2 img {
+    width: 50%;
+    height: 100%;
+  }
+  .project-text h1 {
+    left: 20%;
+    top: 20%;
+  }
 }
-@media screen and (max-width: 360px) {
+@media only screen and (min-width: 300px) and (max-width: 539px) {
   .about-me-text h2 ~ p {
     width: 300px;
   }
@@ -24,5 +36,17 @@
   }
   .experience-box-all .box {
     width: 100%;
+  }
+  .images-item-2 {
+    width: 20em;
+    height: 22em;
+  }
+  .images-item-2 img {
+    width: 50%;
+    height: 100%;
+  }
+  .project-text h1 {
+    left: 15%;
+    top: 20%;
   }
 }
