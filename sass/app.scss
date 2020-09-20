@@ -6,176 +6,125 @@
 @import "pages/about-me.scss";
 @import "pages/developer.scss";
 @import "pages/project.scss";
-@import "pages/contact.scss";
 @import "pages/yetenekler.scss";
 @import "reponsive/responsive.scss";
 @import "pages/experience.scss";
+@import "pages/contact.scss";
 $ana-renk: #2ecc71;
-.project-selection {
-  display: flex;
+.hizmetler {
   width: 100%;
-  height: 100%;
-  align-items: center;
+  height: 100vh;
   justify-content: center;
-  overflow: hidden;
+  align-items: center;
 }
-.images-item-2 {
-  width: 46em;
-  height: 22em;
-  margin-bottom: 25px;
-  overflow: hidden;
-  transition: 300ms all;
-  -webkit-transition: 300ms all;
-  -moz-transition: 300ms all;
-  -ms-transition: 300ms all;
-  -o-transition: 300ms all;
-  background-color: $ana-renk;
-}
-.images-item-2 img {
+.box {
+  border-top: 2px solid $ana-renk;
   width: 100%;
-  height: 100%;
-}
-.images-item {
-  margin-bottom: 25px;
+  height: 200px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  background-color: $ana-renk;
-  transition: 300ms all;
-  -webkit-transition: 300ms all;
-  -moz-transition: 300ms all;
-  -ms-transition: 300ms all;
-  -o-transition: 300ms all;
+  transition: 400ms alll;
+  -webkit-transition: 400ms alll;
+  -moz-transition: 400ms alll;
+  -ms-transition: 400ms alll;
+  -o-transition: 400ms alll;
 }
-.images-item img {
-  width: 100%;
-  height: 80%;
-  background-color: #fff;
-  padding: 50px;
-  overflow: hidden;
-  transition: 300ms all;
-  -webkit-transition: 300ms all;
-  -moz-transition: 300ms all;
-  -ms-transition: 300ms all;
-  -o-transition: 300ms all;
-}
-.overlay {
+.load-more {
   width: 100%;
   height: 100%;
+  background-color: rgba(50, 50, 50, 0.5);
   position: absolute;
-  overflow: hidden;
-  top: 0;
   left: 0;
+  top: 0;
   display: flex;
-  justify-content: center;
   align-items: center;
-  transition: 300ms all;
-  -webkit-transition: 300ms all;
-  -moz-transition: 300ms all;
-  -ms-transition: 300ms all;
-  -o-transition: 300ms all;
-  opacity: 0;
-  transform: translateY(-20px);
-  -webkit-transform: translateY(-20px);
-  -moz-transform: translateY(-20px);
-  -ms-transform: translateY(-20px);
-  -o-transform: translateY(-20px);
+  justify-content: center;
+  flex-direction: column;
+  backface-visibility: hidden;
+  transition: 400ms all;
+  -webkit-transition: 400ms all;
+  -moz-transition: 400ms all;
+  -ms-transition: 400ms all;
+  -o-transition: 400ms all;
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  -ms-transform: rotateY(0deg);
+  -o-transform: rotateY(0deg);
+  -webkit-backface-visibility: hidden;
 }
-.overlay .overlay-content h3 {
-  border: 1px solid #fff;
-  padding: 10px 15px;
-  color: #fff;
-  font-size: 30px;
-  text-align: center;
-  text-transform: capitalize;
+.my-work {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  backface-visibility: hidden;
+  transition: 400ms all;
+  -webkit-transition: 400ms all;
+  -moz-transition: 400ms all;
+  -ms-transition: 400ms all;
+  -o-transition: 400ms all;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
 }
-.overlay .overlay-content p {
-  color: #fff;
-  font-size: 15px;
+.my-work p {
+  color: black;
+  font-size: 18px;
   letter-spacing: 1px;
-  text-transform: capitalize;
 }
-.images-item-2:hover {
-  transform: translateY(0);
+.box h3 {
+  color: white;
+  font-size: 23px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
-.images-item-2:hover .overlay {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
+.box:hover .load-more {
+  transform: perspective(500px) rotateY(180deg);
+  -webkit-transform: perspective(500px) rotateY(180deg);
+  -moz-transform: perspective(500px) rotateY(180deg);
+  -ms-transform: perspective(500px) rotateY(180deg);
+  -o-transform: perspective(500px) rotateY(180deg);
 }
-.images-item-2:hover img {
-  opacity: 0.2;
+.box:hover .my-work {
+  transform: perspective(500px) rotateY(0deg);
+  -webkit-transform: perspective(500px) rotateY(0deg);
+  -moz-transform: perspective(500px) rotateY(0deg);
+  -ms-transform: perspective(500px) rotateY(0deg);
+  -o-transform: perspective(500px) rotateY(0deg);
 }
-
-.images-item-2:hover {
-  transform: translateY(0);
-}
-.images-item-2:hover .overlay {
-  opacity: 1;
-  transform: translateY(10px);
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  -o-transform: translateY(10px);
-}
-.images-item-2:hover img {
-  opacity: 0.2;
-}
-
-.images-item-2:hover {
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-}
-.images-item:hover .overlay {
-  opacity: 1;
-  transform: translateY(10px);
-  -webkit-transform: translateY(10px);
-  -moz-transform: translateY(10px);
-  -ms-transform: translateY(10px);
-  -o-transform: translateY(10px);
-}
-.images-item:hover img {
-  opacity: 0.2;
-}
-
-.images-item:hover {
-  transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-}
-.images-item:hover .overlay {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-  -moz-transform: translateY(0);
-  -ms-transform: translateY(0);
-  -o-transform: translateY(0);
-}
-.images-item:hover img {
-  opacity: 0.2;
-}
-.project-text {
+.hizmetler-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 40px;
   position: relative;
-  text-align: center;
 }
-.project-text h1 {
-  display: block;
-  color: rgba(255, 255, 255, 0.1);
+.hizmetler-text h1 {
   font-size: 70px;
+  color: rgba(255, 255, 255, 0.1);
   text-transform: uppercase;
   position: absolute;
   left: 35%;
-  top: 20%;
-  margin-bottom: 80px;
+  top: 35%;
 }
-.project-text h2 {
-  color: #fff;
-  font-size: 60px;
-  margin: 50px;
+.hizmetler-text h2 {
+  font-size: 50px;
+  color: white;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
