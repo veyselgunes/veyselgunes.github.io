@@ -800,18 +800,25 @@ section {
   .experience-box-right {
     margin-left: 0px; }
   .experience-box-all {
-    width: 30em; }
+    width: 30%; }
   .experience-box-all .box {
-    width: 100%; }
+    width: 10em;
+    text-align: left; }
   .images-item-2 {
-    width: 20em;
+    width: 28.1em;
     height: 22em; }
   .images-item-2 img {
-    width: 50%;
+    width: 100%;
     height: 100%; }
   .project-text h1 {
     left: 15%;
-    top: 20%; } }
+    top: 20%; }
+  .hizmetler-text h1 {
+    font-size: 60px;
+    left: 15%;
+    top: 20%; }
+  .hizmetler-text h2 {
+    font-size: 40px; } }
 
 .section-deneyim {
   display: flex;
