@@ -22,31 +22,31 @@
   </head>
   <body>
     <!-- Header Start -->
-    <header class="header">
-      <div class="header-top">
-        <div class="header-top-logo moveInTop">
-          <img src="images/logo5.png" alt="" />
-        </div>
-
-        <div class="header-top-menu moveInRight">
-          <ul>
-            <li><a href="#anasayfa">Anasayfa</a></li>
-            <li><a href="#hakkinda">Hakkımda</a></li>
-            <li><a href="#yetenekler">Yetenekler</a></li>
-            <li><a href="#deneyimler">Deneyimler</a></li>
-            <li><a href="#projeler">Projeler</a></li>
-            <li><a href="#hizmetler">Hizmetler</a></li>
-            <li><a href="#iletisim">İletişim</a></li>
-          </ul>
-        </div>
+    <nav>
+      <div class="toggle">
+        <i class="fas fa-bars menu"></i>
       </div>
 
-      <div class="header-top-cantant">
-        <div class="header-content-heading moveInLeft">
-          <h1>Merhaba!</h1>
-          <h1>Ben Veysel Güneş</h1>
-          <p>Frontend Developer</p>
-          <a class="header-cantent-heading-link" href="#">Cv indir</a>
+      <ul>
+        <span>Veysel Güneş</span>
+        <li><a href="#anasayfa">Anasayfa</a></li>
+        <li><a href="#hakkinda">Hakkımda</a></li>
+        <li><a href="#yetenekler">Yetenekler</a></li>
+        <li><a href="#deneyimler">Deneyimler</a></li>
+        <li><a href="#projeler">Projeler</a></li>
+        <li><a href="#hizmetler">Hizmetler</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    <header class="header">
+      <div class="header-back">
+        <div class="header-top-cantant">
+          <div class="header-content-heading moveInLeft">
+            <h1>Merhaba!</h1>
+            <h1>Ben Veysel Güneş</h1>
+            <p>Frontend Developer</p>
+            <a class="header-cantent-heading-link" href="#">Cv indir</a>
+          </div>
         </div>
       </div>
     </header>
@@ -68,8 +68,7 @@
           <div class="col-sm-12 col-md-7 col-lg-6 col-xl-6">
             <div class="abount-me">
               <div class="about-me-text">
-                <h2>Hakkımda</h2>
-                <h1>Hakkında</h1>
+                <h2>Hakkında</h2>
                 <p>
                   Merhaba arkadaşlar ben Veysel GÜNEŞ Elazığ Fırat
                   üniversitesinde yazılım mühendisliği 3. sınıf öğrencisiyim.
@@ -95,7 +94,7 @@
     </section>
 
     <!-- Abount Me End -->
-
+    <div class="bant"></div>
     <!-- Yetenekler Start -->
     <section
       class="yetenek col-sm-12 col-md-12 col-lg-12 col-xl-12"
@@ -103,7 +102,6 @@
     >
       <div class="container">
         <div class="yetenekler-text">
-          <h1>Yetenekler</h1>
           <h2>Yetenekler</h2>
         </div>
         <div class="row">
@@ -192,12 +190,15 @@
       </div>
     </section>
     <!-- Yetenekler End -->
+    <div class="bant"></div>
 
     <!-- Deneyimler Start -->
-    <section id="deneyimler" class="section-deneyim">
+    <section
+      id="deneyimler"
+      class="section-deneyim col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
       <div class="container">
         <div class="experience-title">
-          <h1>Deneyimler</h1>
           <h2>Deneyİmler</h2>
           <p>
             " Aldığın bir hata veya yaptığın bir örnek ileride yolunu aydılatan
@@ -281,9 +282,10 @@
       </div>
     </section>
     <!-- Deneyimler Finish -->
+    <div class="bant"></div>
 
     <!-- Bilgi Kösesi Start -->
-    <section>
+    <section class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
       <div class="bilgi-text">
         <h4>
           " Eğer gerçekten başarmak istiyorsan! Tekrar tekrar o işi yapmaya
@@ -292,15 +294,18 @@
       </div>
     </section>
     <!-- Bilgi Kosesi End -->
+    <div class="bant"></div>
 
     <!-- Projeler Start -->
-    <section id="projeler" class="project-selection">
+    <section
+      id="projeler"
+      class="project-selection col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
       <div class="container">
         <div class="project-text">
           <div class="project-text-title">
             <h2>Projeler</h2>
           </div>
-          <h1>Projeler</h1>
         </div>
         <div class="row">
           <div class="col-md-4">
@@ -389,14 +394,17 @@
     </section>
 
     <!-- Projeler End -->
+    <div class="bant"></div>
 
     <!-- Hizmetler Start -->
-    <section id="hizmetler" class="hizmetler">
-      <div class="hizmetler-text">
-        <h1>Hİzmetler</h1>
-        <h2>Hİzmetler</h2>
-      </div>
+    <section
+      id="hizmetler"
+      class="hizmetler col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
       <div class="container">
+        <div class="hizmetler-text">
+          <h2>Hİzmetler</h2>
+        </div>
         <div class="row">
           <div class="col-md-4">
             <div class="box">
@@ -536,10 +544,62 @@
       </div>
     </section>
     <!-- Hizmetler End -->
+    <div class="bant"></div>
+    <!-- Bilgi Kösesi Start -->
 
     <!-- Contact Me Start -->
-    <!-- Contact Me End -->
+    <section
+      id="iletisim"
+      class="iletisim col-sm-12 col-md-12 col-lg-12 col-xl-12"
+    >
+      <div class="container">
+        <h2>İletişim</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="contact-text_item">
+              <div class="content-text_box">
+                <p>
+                  <i
+                    class="fas fa-map-marker-alt"
+                    style="top: 25%; left: 35%"
+                  ></i>
+                </p>
+              </div>
+              <span>Adres</span>
+              <p>Fatih Mah Dilek sk. No:5 Bağcılar/Sitanbul</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-text_item">
+              <div class="content-text_box">
+                <p><i class="fas fa-phone"></i></p>
+              </div>
+              <span>Telefon</span>
+              <p>(05..)___ __ __</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact-text_item">
+              <div class="content-text_box">
+                <p><i class="fas fa-envelope"></i></p>
+              </div>
+              <span>Mail</span>
+              <p>Veysel.gunes36@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact me End -->
 
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $("ul").toggleClass("active");
+        });
+      });
+    </script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js.map"></script>

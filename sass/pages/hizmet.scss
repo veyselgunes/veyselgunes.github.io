@@ -1,0 +1,144 @@
+$ana-renk: #2ecc71;
+
+section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+
+.hizmetler {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+
+
+}
+
+.box {
+    border-top: 2px solid $ana-renk;
+    width: 100%;
+    height: 200px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 400ms alll;
+    -webkit-transition: 400ms alll;
+    -moz-transition: 400ms alll;
+    -ms-transition: 400ms alll;
+    -o-transition: 400ms alll;
+}
+
+.load-more {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backface-visibility: hidden;
+    transition: 400ms all;
+    -webkit-transition: 400ms all;
+    -moz-transition: 400ms all;
+    -ms-transition: 400ms all;
+    -o-transition: 400ms all;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -webkit-backface-visibility: hidden;
+}
+
+.my-work {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    backface-visibility: hidden;
+    transition: 400ms all;
+    -webkit-transition: 400ms all;
+    -moz-transition: 400ms all;
+    -ms-transition: 400ms all;
+    -o-transition: 400ms all;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.my-work p {
+    color: black;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.box h3 {
+    color: white;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.box:hover .load-more {
+    transform: perspective(500px) rotateY(180deg);
+    -webkit-transform: perspective(500px) rotateY(180deg);
+    -moz-transform: perspective(500px) rotateY(180deg);
+    -ms-transform: perspective(500px) rotateY(180deg);
+    -o-transform: perspective(500px) rotateY(180deg);
+}
+
+.box:hover .my-work {
+    transform: perspective(500px) rotateY(0deg);
+    -webkit-transform: perspective(500px) rotateY(0deg);
+    -moz-transform: perspective(500px) rotateY(0deg);
+    -ms-transform: perspective(500px) rotateY(0deg);
+    -o-transform: perspective(500px) rotateY(0deg);
+}
+
+.hizmetler-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+    position: relative;
+}
+
+.hizmetler-text h1 {
+    font-size: 70px;
+    color: rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.hizmetler-text h2 {
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+}

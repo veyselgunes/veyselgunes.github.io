@@ -1,4 +1,5 @@
 $ana-renk: #2ecc71;
+
 .project-selection {
   display: flex;
   width: 100%;
@@ -6,7 +7,9 @@ $ana-renk: #2ecc71;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+
 }
+
 .images-item-2 {
   width: 46em;
   height: 22em;
@@ -19,10 +22,12 @@ $ana-renk: #2ecc71;
   -o-transition: 300ms all;
   background-color: $ana-renk;
 }
+
 .images-item-2 img {
   width: 100%;
   height: 100%;
 }
+
 .images-item {
   margin-bottom: 25px;
   position: relative;
@@ -33,6 +38,7 @@ $ana-renk: #2ecc71;
   -ms-transition: 300ms all;
   -o-transition: 300ms all;
 }
+
 .images-item img {
   width: 100%;
   height: 80%;
@@ -45,6 +51,7 @@ $ana-renk: #2ecc71;
   -ms-transition: 300ms all;
   -o-transition: 300ms all;
 }
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -67,6 +74,7 @@ $ana-renk: #2ecc71;
   -ms-transform: translateY(-20px);
   -o-transform: translateY(-20px);
 }
+
 .overlay .overlay-content h3 {
   border: 1px solid #fff;
   padding: 10px 15px;
@@ -75,15 +83,18 @@ $ana-renk: #2ecc71;
   text-align: center;
   text-transform: capitalize;
 }
+
 .overlay .overlay-content p {
   color: #fff;
   font-size: 15px;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
+
 .images-item-2:hover {
   transform: translateY(0);
 }
+
 .images-item-2:hover .overlay {
   opacity: 1;
   transform: translateY();
@@ -92,6 +103,7 @@ $ana-renk: #2ecc71;
   -ms-transform: translateY();
   -o-transform: translateY();
 }
+
 .images-item-2:hover img {
   opacity: 0.2;
 }
@@ -99,6 +111,7 @@ $ana-renk: #2ecc71;
 .images-item-2:hover {
   transform: translateY(0);
 }
+
 .images-item-2:hover .overlay {
   opacity: 1;
   transform: translateY(10px);
@@ -107,6 +120,7 @@ $ana-renk: #2ecc71;
   -ms-transform: translateY(10px);
   -o-transform: translateY(10px);
 }
+
 .images-item-2:hover img {
   opacity: 0.2;
 }
@@ -118,6 +132,7 @@ $ana-renk: #2ecc71;
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
+
 .images-item:hover .overlay {
   opacity: 1;
   transform: translateY(10px);
@@ -126,6 +141,7 @@ $ana-renk: #2ecc71;
   -ms-transform: translateY(10px);
   -o-transform: translateY(10px);
 }
+
 .images-item:hover img {
   opacity: 0.2;
 }
@@ -137,6 +153,7 @@ $ana-renk: #2ecc71;
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
 .images-item:hover .overlay {
   opacity: 1;
   transform: translateY();
@@ -145,13 +162,16 @@ $ana-renk: #2ecc71;
   -ms-transform: translateY();
   -o-transform: translateY();
 }
+
 .images-item:hover img {
   opacity: 0.2;
 }
+
 .project-text {
   position: relative;
   text-align: center;
 }
+
 .project-text h1 {
   display: block;
   color: rgba(255, 255, 255, 0.1);
@@ -162,6 +182,7 @@ $ana-renk: #2ecc71;
   top: 20%;
   margin-bottom: 80px;
 }
+
 .project-text h2 {
   color: #fff;
   font-size: 60px;
