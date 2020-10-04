@@ -17,6 +17,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: black;
+    z-index: 1000;
 
 
 
@@ -141,4 +142,10 @@ section {
     font-size: 50px;
     color: white;
     text-transform: uppercase;
+}
+
+@media(max-width:760px) {
+    .hizmetler {
+        padding: 600px 0;
+    }
 }

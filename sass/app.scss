@@ -1,6 +1,7 @@
 @import "base/reset.scss";
 
 @import "layout/Header.scss";
+@import "layout/footer.scss";
 
 @import "components/animation.scss";
 @import "pages/about-me.scss";
@@ -14,9 +15,8 @@
 
 $ana-renk: #2ecc71;
 
-
 .bant {
-  height: 170px;
+  height: 70px;
   background-color: black;
 }
 
@@ -28,12 +28,18 @@ $ana-renk: #2ecc71;
   align-items: center;
   background-color: black;
   z-index: 1;
-
 }
 
+.contact-text h2 {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: center;
+  padding: 50px 0;
+}
 
 .iletisim {
-
   height: 100vh;
   display: flex;
   align-items: center;
@@ -45,8 +51,6 @@ $ana-renk: #2ecc71;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
 
 .contact-text_item p i {
@@ -62,7 +66,6 @@ $ana-renk: #2ecc71;
   -moz-transition: 300ms all;
   -ms-transition: 300ms all;
   -o-transition: 300ms all;
-
 }
 
 .content-text_box {
@@ -111,11 +114,168 @@ $ana-renk: #2ecc71;
   text-transform: uppercase;
 }
 
-.contact-text_item span+p {
+.contact-text_item span + p {
   color: white;
   margin: 15px 0;
   padding: 10px;
   font-size: 18px;
   text-align: center;
+}
 
+@media (max-width: 760px) {
+  .iletisim {
+    padding: 600px 0;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-top: 2px solid #2ecc71;
+}
+
+.footer .row {
+  margin-top: 3em;
+}
+
+.footer-about-me h2 {
+  color: rgba(255, 255, 255, 0.671);
+}
+
+.footer-about-me p {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.footer ul li a {
+  padding-left: 10px;
+  margin-bottom: 3px;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.footer .footer-map {
+  width: 100%;
+}
+
+.Footer-sitemap {
+  display: block;
+}
+.galeri {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: wrap;
+  grid-gap: 0 20px;
+}
+.galeri .galeri-item img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.footer-galeri_item {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+.social-media ul {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media ul li {
+  margin-right: 15px;
+}
+
+.social-media .twitter {
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -ms-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+}
+
+.social-media .twitter:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.social-media .link {
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -ms-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+}
+
+.social-media .link:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.social-media .pinter {
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -ms-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+}
+
+.social-media .pinter:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.social-media .youtube {
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -ms-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+}
+
+.social-media .youtube:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.social-media .google {
+  transition: 300ms ease-in-out;
+  -webkit-transition: 300ms ease-in-out;
+  -moz-transition: 300ms ease-in-out;
+  -ms-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+}
+
+.social-media .google:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.sitemap-title h2 {
+  color: rgba(255, 255, 255, 0.671);
+}
+.compile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 50px;
+  width: 100%;
+  height: 50px;
+  background-color: #2ecc71;
+  color: white;
 }
