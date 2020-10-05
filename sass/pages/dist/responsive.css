@@ -1,0 +1,10 @@
+@media (max-width: 760px) {
+  .yetenekler-text h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 370px) {
+  .yetenekler-text h2 {
+    font-size: 35px;
+  }
+}

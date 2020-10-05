@@ -81,8 +81,6 @@ $proces-bar-radius: 20px;
   margin-bottom: 25px;
 }
 
-
-
 .experience-box .box:hover {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -188,7 +186,7 @@ $proces-bar-radius: 20px;
   color: rgb(224, 224, 224);
 }
 
-@media(max-width:760px) {
+@media (max-width: 760px) {
   .experience-box-all {
     align-items: center;
     justify-content: center;
@@ -199,7 +197,6 @@ $proces-bar-radius: 20px;
   .experience-box .box {
     align-items: center;
     justify-content: center;
-
   }
 
   .experience-box-right {
@@ -211,9 +208,23 @@ $proces-bar-radius: 20px;
   }
 
   .experience-box {
-
     width: 26.5em;
-
-
+  }
+  .experience-title h2 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 376px) {
+  .experience-box {
+    width: 19.5em;
+  }
+  .experience-box-all {
+    align-items: center;
+    justify-content: center;
+    width: 19.5em;
+    height: 15em;
+  }
+  .experience-title h2 {
+    font-size: 40px;
   }
 }

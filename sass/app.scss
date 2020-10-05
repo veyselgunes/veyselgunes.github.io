@@ -7,8 +7,8 @@
 @import "pages/about-me.scss";
 @import "pages/developer.scss";
 @import "pages/project.scss";
+@import "pages/responsive.scss";
 @import "pages/yetenekler.scss";
-@import "reponsive/responsive.scss";
 @import "pages/experience.scss";
 @import "pages/contact.scss";
 @import "pages/hizmet.scss";
@@ -170,6 +170,18 @@ $ana-renk: #2ecc71;
   display: block;
   width: 100px;
   height: 100px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+.galeri .galeri-item img:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
 }
 .footer-galeri_item {
   color: rgba(255, 255, 255, 0.603);

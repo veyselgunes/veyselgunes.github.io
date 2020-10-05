@@ -115,3 +115,15 @@ section {
 }
 
 /*About Me End*/
+@media (max-width: 760px) {
+  .about-me-img i {
+    font-size: 200px;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 370px) {
+  .about-me-img i {
+    font-size: 150px;
+    margin-left: 10%;
+  }
+}

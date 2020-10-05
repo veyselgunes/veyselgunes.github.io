@@ -1,0 +1,136 @@
+/* About Me Start*/
+section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.about-me-img {
+  display: flex;
+  width: 20em;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-img i {
+  color: #2ecc71;
+  display: block;
+  align-items: center;
+  font-size: 300px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+  margin-left: 20%;
+}
+
+.about-me-img i:hover {
+  transform: translate(50px);
+  -webkit-transform: translate(50px);
+  -moz-transform: translate(50px);
+  -ms-transform: translate(50px);
+  -o-transform: translate(50px);
+}
+
+.about-me-text {
+  display: flex;
+  width: 25em;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-me-text h1 {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.07);
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  top: 25%;
+}
+
+.about-me-text h2 {
+  margin-top: 1em;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.981);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.about-me-text h2 ~ p {
+  display: block;
+  width: 500px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.581);
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.about-me-proje p span {
+  color: #2ecc71;
+  margin-left: 10px;
+}
+
+.about-me-proje p {
+  color: rgba(255, 255, 255, 0.581);
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.about-me-btn a {
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  background-color: #2ecc71;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all;
+}
+
+.about-me-btn a:hover {
+  background-color: #31bb6b;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  text-decoration: none;
+  color: white;
+}
+
+/*About Me End*/
+@media (max-width: 760px) {
+  .about-me-img i {
+    font-size: 200px;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 370px) {
+  .about-me-img i {
+    font-size: 150px;
+    margin-left: 10%;
+  }
+}

@@ -49,18 +49,7 @@ $wr: 70%;
 $c2: 80%;
 $pyt: 60%;
 $vd: 50%;
-$dizi: $c,
-$html,
-$php,
-$css,
-$Mysql,
-$js,
-$asp,
-$ph,
-$wr,
-$c2,
-$pyt,
-$vd;
+$dizi: $c, $html, $php, $css, $Mysql, $js, $asp, $ph, $wr, $c2, $pyt, $vd;
 
 @for $i from 1 through length($dizi) {
   .item-#{$i} {
@@ -131,3 +120,13 @@ $vd;
 }
 
 /*Yetenekler Finish*/
+@media (max-width: 760px) {
+  .yetenekler-text h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 370px) {
+  .yetenekler-text h2 {
+    font-size: 35px;
+  }
+}

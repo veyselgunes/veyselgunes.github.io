@@ -7,7 +7,6 @@ $ana-renk: #2ecc71;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
 }
 
 .images-item-2 {
@@ -189,4 +188,31 @@ $ana-renk: #2ecc71;
   margin: 50px;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+@media (max-width: 760px) {
+  .project-text h2 {
+    font-size: 45px;
+  }
+
+  .images-item-2 {
+    width: 36em;
+    height: 22em;
+  }
+  .images-item-2 img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 375px) {
+  .project-text h2 {
+    font-size: 35px;
+  }
+  .images-item-2 {
+    width: 19.6em;
+    height: 22em;
+  }
+  .images-item-2 img {
+    width: 100%;
+    height: 100%;
+  }
 }

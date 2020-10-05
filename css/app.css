@@ -359,6 +359,16 @@ section {
   color: white; }
 
 /*About Me End*/
+@media (max-width: 760px) {
+  .about-me-img i {
+    font-size: 200px;
+    margin-left: 15%; } }
+
+@media (max-width: 370px) {
+  .about-me-img i {
+    font-size: 150px;
+    margin-left: 10%; } }
+
 .project-selection {
   display: flex;
   width: 100%;
@@ -525,6 +535,34 @@ section {
   margin: 50px;
   text-transform: uppercase;
   letter-spacing: 1px; }
+
+@media (max-width: 760px) {
+  .project-text h2 {
+    font-size: 45px; }
+  .images-item-2 {
+    width: 36em;
+    height: 22em; }
+  .images-item-2 img {
+    width: 100%;
+    height: 100%; } }
+
+@media (max-width: 375px) {
+  .project-text h2 {
+    font-size: 35px; }
+  .images-item-2 {
+    width: 19.6em;
+    height: 22em; }
+  .images-item-2 img {
+    width: 100%;
+    height: 100%; } }
+
+@media (max-width: 760px) {
+  .yetenekler-text h2 {
+    font-size: 45px; } }
+
+@media (max-width: 370px) {
+  .yetenekler-text h2 {
+    font-size: 35px; } }
 
 /*Yetenekler Start*/
 .yetenekler-text {
@@ -771,50 +809,13 @@ section {
   padding-left: 5px; }
 
 /*Yetenekler Finish*/
-@media only screen and (min-width: 540px) and (max-width: 770px) {
-  .about-me-text h2 ~ p {
-    width: 400px; }
-  .experience-box-right {
-    margin-left: 0px; }
-  .experience-box-all {
-    width: 30em; }
-  .experience-box-all .box {
-    width: 100%; }
-  .images-item-2 {
-    width: 30em;
-    height: 22em; }
-  .images-item-2 img {
-    width: 50%;
-    height: 100%; }
-  .project-text h1 {
-    left: 20%;
-    top: 20%; } }
+@media (max-width: 760px) {
+  .yetenekler-text h2 {
+    font-size: 45px; } }
 
-@media only screen and (min-width: 300px) and (max-width: 539px) {
-  .about-me-text h2 ~ p {
-    width: 300px; }
-  .experience-box-right {
-    margin-left: 0px; }
-  .experience-box-all {
-    width: 30%; }
-  .experience-box-all .box {
-    width: 10em;
-    text-align: left; }
-  .images-item-2 {
-    width: 28.1em;
-    height: 22em; }
-  .images-item-2 img {
-    width: 100%;
-    height: 100%; }
-  .project-text h1 {
-    left: 15%;
-    top: 20%; }
-  .hizmetler-text h1 {
-    font-size: 60px;
-    left: 15%;
-    top: 20%; }
-  .hizmetler-text h2 {
-    font-size: 40px; } }
+@media (max-width: 370px) {
+  .yetenekler-text h2 {
+    font-size: 35px; } }
 
 .section-deneyim {
   display: flex;
@@ -982,7 +983,20 @@ section {
   .experience-box-left {
     margin-left: 0px; }
   .experience-box {
-    width: 26.5em; } }
+    width: 26.5em; }
+  .experience-title h2 {
+    font-size: 50px; } }
+
+@media (max-width: 376px) {
+  .experience-box {
+    width: 19.5em; }
+  .experience-box-all {
+    align-items: center;
+    justify-content: center;
+    width: 19.5em;
+    height: 15em; }
+  .experience-title h2 {
+    font-size: 40px; } }
 
 section {
   height: 100%;
@@ -1251,7 +1265,19 @@ section {
 .galeri .galeri-item img {
   display: block;
   width: 100px;
-  height: 100px; }
+  height: 100px;
+  transition: 300ms all;
+  -webkit-transition: 300ms all;
+  -moz-transition: 300ms all;
+  -ms-transition: 300ms all;
+  -o-transition: 300ms all; }
+
+.galeri .galeri-item img:hover {
+  transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2); }
 
 .footer-galeri_item {
   color: rgba(255, 255, 255, 0.603); }

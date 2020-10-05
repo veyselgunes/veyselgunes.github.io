@@ -1,0 +1,75 @@
+@media only screen and (min-width: 540px) and (max-width: 770px) {
+  .about-me-text h2 ~ p {
+    width: 400px;
+  }
+
+  .experience-box-right {
+    margin-left: 0px;
+  }
+
+  .experience-box-all {
+    width: 30em;
+  }
+
+  .experience-box-all .box {
+    width: 100%;
+  }
+
+  .images-item-2 {
+    width: 30em;
+    height: 22em;
+  }
+
+  .images-item-2 img {
+    width: 50%;
+    height: 100%;
+  }
+
+  .project-text h1 {
+    left: 20%;
+    top: 20%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 539px) {
+  .about-me-text h2 ~ p {
+    width: 300px;
+  }
+
+  .experience-box-right {
+    margin-left: 0px;
+  }
+
+  .experience-box-all {
+    width: 30%;
+  }
+
+  .experience-box-all .box {
+    width: 10em;
+    text-align: left;
+  }
+
+  .images-item-2 {
+    width: 28.1em;
+    height: 22em;
+  }
+
+  .images-item-2 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .project-text h1 {
+    left: 15%;
+    top: 20%;
+  }
+
+  .hizmetler-text h1 {
+    font-size: 60px;
+    left: 15%;
+    top: 20%;
+  }
+
+  .hizmetler-text h2 {
+    font-size: 40px;
+  }
+}
